@@ -5,7 +5,7 @@
         var todoList = this;
         todoList.todos = [
           {text:'learn AngularJS', done:true},
-          {text:'build an AngularJS app', done:false}];
+          {text:'Build the app', done:false}];
      
         todoList.addTodo = function() {
           todoList.todos.push({text:todoList.todoText, done:false});
